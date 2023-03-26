@@ -1,1 +1,5 @@
-# ballcounter_with_imageprocessing
+# Görüntü İşleme ile Top Tespiti
+## Proje İçeriği
+Bu proje, bir video akışında kırmızı topları tespit eder ve tespit edilen kırmızı topların sayısı 3'ten büyük olduğunda bir API'ye uyarı gönderir. Kod, görüntü işleme için OpenCV kütüphanesini ve POST isteklerini göndermek için requests kütüphanesini kullanır.Ve ayrıca diğer işlemler için NumPy, PIL, Base64 gibi kütüphaneleride içerir.
+## Kullanım
+Bu kodu kullanmak için, bir video dosyası adını ve yolunu değiştirerek veya kameranızı cv2.VideoCapture işlevine geçmeniz gerekecektir. Ayrıca, url değişkenini, uyarıları göndereceğiniz sunucunun adresiyle değiştirmeniz gerekecektir. Kodun çalışması için, Python3, OpenCV, NumPy, PIL, Base64 ve Requests kütüphanelerinin yüklü olması gerekmekte ve uyarıların gönderileceği sunucunun çalışır durumda ve bağlantılı olması da gerekmektedir. Ayrıca extract_images_from_video.py uzantılı python dosyasını çalıştırarak da videodan veya kameranızdan anlık olarak kareler alarak 'frames' dosyasına kaydedebilirsiniz.
